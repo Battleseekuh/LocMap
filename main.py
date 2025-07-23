@@ -3,7 +3,6 @@ from colorama import Fore, Style
 import os
 import socket
 import pyshark
-from pyshark.capture.live_capture import get_tshark_interfaces
 from scapy.arch.windows import get_windows_if_list
 import time
 import subprocess
